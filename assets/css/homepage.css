@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* header-top */
+.header-top {
+    background-color: #7E33E0;
+    height: 44px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.topbar-mail, .topbar-phone {
+    padding: 14px 0;
+}
+
+.topbar-mail>.iconify,
+.topbar-phone > .iconify {
+    margin-right: 12px;
+}
+
+.topbar-mail {
+    margin-right: 48px;
+}
+
+.dropdown-toggle::after{
+    content: url('https://api.iconify.design/akar-icons/chevron-down.svg?color=white');
+    border: none;
+    vertical-align: -3px;
+}
+
