@@ -10,14 +10,19 @@
     <link rel="stylesheet" href="./assets/bootstrap-5.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/homepage.css">
 
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="./assets/owlcarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/owlcarousel/dist/assets/owl.theme.default.min.css">
+
     <!-- theme icon -->
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 </head>
 <body>
+    <!-- header-top start -->
     <section class="header-top">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 text-white p-0 d-flex">
+                <div class="col-lg-6 text-white d-flex">
                     <div class="topbar-mail">
                         <span class="iconify" data-icon="uil:envelope-alt"></span>mhhasanul@gmail.com
                     </div>
@@ -48,7 +53,7 @@
                             <a href="#" class="nav-link text-white pe-0">Login<span class="iconify" data-icon="carbon:user" style="margin-bottom: 4px;"></span></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-white pe-0">Wishlist<span class="iconify" data-icon="uil:heart-alt" style="margin-bottom: 4px;"></span></a>
+                            <a href="#" class="nav-link text-white pe-0">Wishlist <span class="iconify" data-icon="uil:heart-alt" style="margin-bottom: 4px;"></span></a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link text-white pt-1 pe-0"><span class="iconify" data-icon="fluent:cart-24-regular" style="font-size: 24px;"></span></a>
@@ -58,11 +63,827 @@
             </div>
         </div>
     </section>
+    <!-- header-top end -->
 
+    <!-- navbar start -->
+    <section class="navbar-header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg" > <!--id="hekto-navbar"-->
+                <a href="#" class="navbar-brand fw-bold">Hekto</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 
+                aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
+                <div class="collapse navbar-collapse row" id="navbarSupportedContent">
+                    <ul class="navbar-nav col-lg-6">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                             role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <form class="form-inline my-2 my-lg-0 d-flex col-lg-6 justify-content-end pe-0">
+                        <input type="search" name="" id="" class="form-control mr-sm-2">
+                        <button type="submit" class="btn btn-search my-2 my-sm-0"><span class="iconify" data-icon="uil:search"></span></button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <!-- hnavbar end -->
+
+    <!-- promotional start -->
+    <section class="promotion">
+        <img class="img-bg-promo" src="./assets/images/lamp-promo.png" alt="">
+        <div class="container">
+            <div class="owl-carousel owl-theme">
+                <div class="item row" data-dot="<span></span>">
+                    <div class="col-lg-6">
+                        <p class="promo-slogan text-pink text-lato fw-bold">Best Furniture For Your Castle....</p>
+                        <h1 class="promo-title fw-bold">New Furniture Collection <br class="d-none d-sm-block">Trends in 2020</h1>
+                        <p class="promo-desc text-lato fw-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing
+                            <br class="d-none d-sm-block">in phasellus non in justo.</p>
+                        <button class="btn btn-shopping-now">Shop Now</button>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="./assets/images/sofa promotional header.png" alt="">
+                    </div>
+                </div>
+                <div class="item row" data-dot="<span></span>">
+                    <div class="col-lg-6">
+                        <p class="promo-slogan text-pink text-lato fw-bold">Best Furniture For Your Castle....</p>
+                        <h1 class="promo-title fw-bold">New Furniture Collection <br class="d-none d-sm-block">Trends in 2020</h1>
+                        <p class="promo-desc 1text-lato fw-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing
+                            <br class="d-none d-sm-block">in phasellus non in justo.</p>
+                        <button class="btn btn-shopping-now">Shop Now</button>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="./assets/images/sofa promotional header.png" alt="">
+                    </div>
+                </div>
+                <div class="item row" data-dot="<span></span>">
+                    <div class="col-lg-6">
+                        <p class="promo-slogan text-pink text-lato fw-bold">Best Furniture For Your Castle....</p>
+                        <h1 class="promo-title fw-bold">New Furniture Collection <br class="d-none d-sm-block">Trends in 2020</h1>
+                        <p class="promo-desc text-lato fw-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing
+                            <br class="d-none d-sm-block">in phasellus non in justo.</p>
+                        <button class="btn btn-shopping-now">Shop Now</button>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="./assets/images/sofa promotional header.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- promotional end -->
+
+    <!-- featured products start  -->
+    <section class="featured-products">
+        <div class="container">
+            <h1 class="section-title text-center">Featured Products</h1>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+
+                <div class="carousel-inner" role="listbox">
+                    <!-- first slide -->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="product-img">
+                                        <div class="card-img-top">
+                                            <img src="./assets/images/image 1168.png" alt="" >
+                                        </div>
+                                        <div class="product-quickview">
+                                            <ul class="feature-product-hover">
+                                                <li class="navigation-link">
+                                                    <a href="" title="Add to Cart"><span class="iconify" data-icon="fluent:cart-24-regular" data-width="20"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href="" title="Wish List"><span class="iconify" data-icon="uil:heart-alt" data-width="18"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href=""><span class="iconify" data-icon="uil:search-plus" data-width="18"></span></a>
+                                                </li>
+                                            </ul>
+                                            <a href="" class="view-detail btn text-decoration-none text-center" role="button">View Details</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fw-bold text-lato">Cantilever chair</h5>
+                                        <div class="product-color-select">
+                                            <label for="pc-1">
+                                                <input type="radio" name="" id="pc-1">
+                                            </label>
+                                            <label class="pink" for="pc-2">
+                                                <input type="radio" name="" id="pc-2">
+                                            </label>
+                                            <label class="blue" for="pc-3">
+                                                <input type="radio" name="" id="pc-3">
+                                            </label>
+                                        </div>
+                                        <p class="card-text">Code - Y523201</p>
+                                        <p class="card-text text-lato">$42.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="product-img">
+                                        <div class="card-img-top">
+                                            <img src="./assets/images/image 1.png" alt="">
+                                        </div>
+                                        <div class="product-quickview">
+                                            <ul class="feature-product-hover">
+                                                <li class="navigation-link">
+                                                    <a href="" title="Add to Cart"><span class="iconify" data-icon="fluent:cart-24-regular" data-width="20"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href="" title="Wish List"><span class="iconify" data-icon="uil:heart-alt" data-width="18"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href=""><span class="iconify" data-icon="uil:search-plus" data-width="18"></span></a>
+                                                </li>
+                                            </ul>
+                                            <a href="" class="view-detail btn text-decoration-none text-center" role="button">View Details</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fw-bold text-lato">Cantilever chair</h5>
+                                        <div class="product-color-select">
+                                            <label for="pc-1">
+                                                <input type="radio" name="" id="pc-1">
+                                            </label>
+                                            <label class="pink" for="pc-2">
+                                                <input type="radio" name="" id="pc-2">
+                                            </label>
+                                            <label class="blue" for="pc-3">
+                                                <input type="radio" name="" id="pc-3">
+                                            </label>
+                                        </div>
+                                        <p class="card-text">Code - Y523201</p>
+                                        <p class="card-text text-lato">$42.00</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="product-img">
+                                        <div class="card-img-top">
+                                            <img src="./assets/images/image 1169.png" alt="">
+                                        </div>
+                                        <div class="product-quickview">
+                                            <ul class="feature-product-hover">
+                                                <li class="navigation-link">
+                                                    <a href="" title="Add to Cart"><span class="iconify" data-icon="fluent:cart-24-regular" data-width="20"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href="" title="Wish List"><span class="iconify" data-icon="uil:heart-alt" data-width="18"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href=""><span class="iconify" data-icon="uil:search-plus" data-width="18"></span></a>
+                                                </li>
+                                            </ul>
+                                            <a href="" class="view-detail btn text-decoration-none text-center" role="button">View Details</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fw-bold text-pink text-lato">Cantilever chair</h5>
+                                        <div class="product-color-select">
+                                            <label for="pc-1">
+                                                <input type="radio" name="" id="pc-1">
+                                            </label>
+                                            <label class="pink" for="pc-2">
+                                                <input type="radio" name="" id="pc-2">
+                                            </label>
+                                            <label class="blue" for="pc-3">
+                                                <input type="radio" name="" id="pc-3">
+                                            </label>
+                                        </div>
+                                        <p class="card-text">Code - Y523201</p>
+                                        <p class="card-text text-lato">$42.00</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="product-img">
+                                        <div class="card-img-top">
+                                            <img src="./assets/images/image 3.png" alt="">
+                                        </div>
+                                        <div class="product-quickview">
+                                            <ul class="feature-product-hover">
+                                                <li class="navigation-link">
+                                                    <a href="" title="Add to Cart"><span class="iconify" data-icon="fluent:cart-24-regular" data-width="20"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href="" title="Wish List"><span class="iconify" data-icon="uil:heart-alt" data-width="18"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href=""><span class="iconify" data-icon="uil:search-plus" data-width="18"></span></a>
+                                                </li>
+                                            </ul>
+                                            <a href="" class="view-detail btn text-decoration-none text-center" role="button">View Details</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fw-bold text-lato">Cantilever chair</h5>
+                                        <div class="product-color-select">
+                                            <label for="pc-1">
+                                                <input type="radio" name="" id="pc-1">
+                                            </label>
+                                            <label class="pink" for="pc-2">
+                                                <input type="radio" name="" id="pc-2">
+                                            </label>
+                                            <label class="blue" for="pc-3">
+                                                <input type="radio" name="" id="pc-3">
+                                            </label>
+                                        </div>
+                                        <p class="card-text">Code - Y523201</p>
+                                        <p class="card-text text-lato">$42.00</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- second slide -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="product-img">
+                                        <div class="card-img-top">
+                                            <img src="./assets/images/image 1168.png" alt="" >
+                                        </div>
+                                        <div class="product-quickview">
+                                            <ul class="feature-product-hover">
+                                                <li class="navigation-link">
+                                                    <a href="" title="Add to Cart"><span class="iconify" data-icon="fluent:cart-24-regular" data-width="20"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href="" title="Wish List"><span class="iconify" data-icon="uil:heart-alt" data-width="18"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href=""><span class="iconify" data-icon="uil:search-plus" data-width="18"></span></a>
+                                                </li>
+                                            </ul>
+                                            <a href="" class="view-detail btn text-decoration-none text-center" role="button">View Details</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fw-bold text-lato">Cantilever chair</h5>
+                                        <div class="product-color-select">
+                                            <label for="pc-1">
+                                                <input type="radio" name="" id="pc-1">
+                                            </label>
+                                            <label class="pink" for="pc-2">
+                                                <input type="radio" name="" id="pc-2">
+                                            </label>
+                                            <label class="blue" for="pc-3">
+                                                <input type="radio" name="" id="pc-3">
+                                            </label>
+                                        </div>
+                                        <p class="card-text">Code - Y523201</p>
+                                        <p class="card-text text-lato">$42.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="product-img">
+                                        <div class="card-img-top">
+                                            <img src="./assets/images/image 1.png" alt="">
+                                        </div>
+                                        <div class="product-quickview">
+                                            <ul class="feature-product-hover">
+                                                <li class="navigation-link">
+                                                    <a href="" title="Add to Cart"><span class="iconify" data-icon="fluent:cart-24-regular" data-width="20"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href="" title="Wish List"><span class="iconify" data-icon="uil:heart-alt" data-width="18"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href=""><span class="iconify" data-icon="uil:search-plus" data-width="18"></span></a>
+                                                </li>
+                                            </ul>
+                                            <a href="" class="view-detail btn text-decoration-none text-center" role="button">View Details</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fw-bold text-lato">Cantilever chair</h5>
+                                        <div class="product-color-select">
+                                            <label for="pc-1">
+                                                <input type="radio" name="" id="pc-1">
+                                            </label>
+                                            <label class="pink" for="pc-2">
+                                                <input type="radio" name="" id="pc-2">
+                                            </label>
+                                            <label class="blue" for="pc-3">
+                                                <input type="radio" name="" id="pc-3">
+                                            </label>
+                                        </div>
+                                        <p class="card-text">Code - Y523201</p>
+                                        <p class="card-text text-lato">$42.00</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="product-img">
+                                        <div class="card-img-top">
+                                            <img src="./assets/images/image 1169.png" alt="">
+                                        </div>
+                                        <div class="product-quickview">
+                                            <ul class="feature-product-hover">
+                                                <li class="navigation-link">
+                                                    <a href="" title="Add to Cart"><span class="iconify" data-icon="fluent:cart-24-regular" data-width="20"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href="" title="Wish List"><span class="iconify" data-icon="uil:heart-alt" data-width="18"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href=""><span class="iconify" data-icon="uil:search-plus" data-width="18"></span></a>
+                                                </li>
+                                            </ul>
+                                            <a href="" class="view-detail btn text-decoration-none text-center" role="button">View Details</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fw-bold text-pink text-lato">Cantilever chair</h5>
+                                        <div class="product-color-select">
+                                            <label for="pc-1">
+                                                <input type="radio" name="" id="pc-1">
+                                            </label>
+                                            <label class="pink" for="pc-2">
+                                                <input type="radio" name="" id="pc-2">
+                                            </label>
+                                            <label class="blue" for="pc-3">
+                                                <input type="radio" name="" id="pc-3">
+                                            </label>
+                                        </div>
+                                        <p class="card-text">Code - Y523201</p>
+                                        <p class="card-text text-lato">$42.00</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="product-img">
+                                        <div class="card-img-top">
+                                            <img src="./assets/images/image 3.png" alt="">
+                                        </div>
+                                        <div class="product-quickview">
+                                            <ul class="feature-product-hover">
+                                                <li class="navigation-link">
+                                                    <a href="" title="Add to Cart"><span class="iconify" data-icon="fluent:cart-24-regular" data-width="20"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href="" title="Wish List"><span class="iconify" data-icon="uil:heart-alt" data-width="18"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href=""><span class="iconify" data-icon="uil:search-plus" data-width="18"></span></a>
+                                                </li>
+                                            </ul>
+                                            <a href="" class="view-detail btn text-decoration-none text-center" role="button">View Details</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fw-bold text-lato">Cantilever chair</h5>
+                                        <div class="product-color-select">
+                                            <label for="pc-1">
+                                                <input type="radio" name="" id="pc-1">
+                                            </label>
+                                            <label class="pink" for="pc-2">
+                                                <input type="radio" name="" id="pc-2">
+                                            </label>
+                                            <label class="blue" for="pc-3">
+                                                <input type="radio" name="" id="pc-3">
+                                            </label>
+                                        </div>
+                                        <p class="card-text">Code - Y523201</p>
+                                        <p class="card-text text-lato">$42.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- third slide -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="product-img">
+                                        <div class="card-img-top">
+                                            <img src="./assets/images/image 1168.png" alt="" >
+                                        </div>
+                                        <div class="product-quickview">
+                                            <ul class="feature-product-hover">
+                                                <li class="navigation-link">
+                                                    <a href="" title="Add to Cart"><span class="iconify" data-icon="fluent:cart-24-regular" data-width="20"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href="" title="Wish List"><span class="iconify" data-icon="uil:heart-alt" data-width="18"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href=""><span class="iconify" data-icon="uil:search-plus" data-width="18"></span></a>
+                                                </li>
+                                            </ul>
+                                            <a href="" class="view-detail btn text-decoration-none text-center" role="button">View Details</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fw-bold text-lato">Cantilever chair</h5>
+                                        <div class="product-color-select">
+                                            <label for="pc-1">
+                                                <input type="radio" name="" id="pc-1">
+                                            </label>
+                                            <label class="pink" for="pc-2">
+                                                <input type="radio" name="" id="pc-2">
+                                            </label>
+                                            <label class="blue" for="pc-3">
+                                                <input type="radio" name="" id="pc-3">
+                                            </label>
+                                        </div>
+                                        <p class="card-text">Code - Y523201</p>
+                                        <p class="card-text text-lato">$42.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="product-img">
+                                        <div class="card-img-top">
+                                            <img src="./assets/images/image 1.png" alt="">
+                                        </div>
+                                        <div class="product-quickview">
+                                            <ul class="feature-product-hover">
+                                                <li class="navigation-link">
+                                                    <a href="" title="Add to Cart"><span class="iconify" data-icon="fluent:cart-24-regular" data-width="20"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href="" title="Wish List"><span class="iconify" data-icon="uil:heart-alt" data-width="18"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href=""><span class="iconify" data-icon="uil:search-plus" data-width="18"></span></a>
+                                                </li>
+                                            </ul>
+                                            <a href="" class="view-detail btn text-decoration-none text-center" role="button">View Details</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fw-bold text-lato">Cantilever chair</h5>
+                                        <div class="product-color-select">
+                                            <label for="pc-1">
+                                                <input type="radio" name="" id="pc-1">
+                                            </label>
+                                            <label class="pink" for="pc-2">
+                                                <input type="radio" name="" id="pc-2">
+                                            </label>
+                                            <label class="blue" for="pc-3">
+                                                <input type="radio" name="" id="pc-3">
+                                            </label>
+                                        </div>
+                                        <p class="card-text">Code - Y523201</p>
+                                        <p class="card-text text-lato">$42.00</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="product-img">
+                                        <div class="card-img-top">
+                                            <img src="./assets/images/image 1169.png" alt="">
+                                        </div>
+                                        <div class="product-quickview">
+                                            <ul class="feature-product-hover">
+                                                <li class="navigation-link">
+                                                    <a href="" title="Add to Cart"><span class="iconify" data-icon="fluent:cart-24-regular" data-width="20"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href="" title="Wish List"><span class="iconify" data-icon="uil:heart-alt" data-width="18"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href=""><span class="iconify" data-icon="uil:search-plus" data-width="18"></span></a>
+                                                </li>
+                                            </ul>
+                                            <a href="" class="view-detail btn text-decoration-none text-center" role="button">View Details</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fw-bold text-pink text-lato">Cantilever chair</h5>
+                                        <div class="product-color-select">
+                                            <label for="pc-1">
+                                                <input type="radio" name="" id="pc-1">
+                                            </label>
+                                            <label class="pink" for="pc-2">
+                                                <input type="radio" name="" id="pc-2">
+                                            </label>
+                                            <label class="blue" for="pc-3">
+                                                <input type="radio" name="" id="pc-3">
+                                            </label>
+                                        </div>
+                                        <p class="card-text">Code - Y523201</p>
+                                        <p class="card-text text-lato">$42.00</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="product-img">
+                                        <div class="card-img-top">
+                                            <img src="./assets/images/image 3.png" alt="">
+                                        </div>
+                                        <div class="product-quickview">
+                                            <ul class="feature-product-hover">
+                                                <li class="navigation-link">
+                                                    <a href="" title="Add to Cart"><span class="iconify" data-icon="fluent:cart-24-regular" data-width="20"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href="" title="Wish List"><span class="iconify" data-icon="uil:heart-alt" data-width="18"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href=""><span class="iconify" data-icon="uil:search-plus" data-width="18"></span></a>
+                                                </li>
+                                            </ul>
+                                            <a href="" class="view-detail btn text-decoration-none text-center" role="button">View Details</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fw-bold text-lato">Cantilever chair</h5>
+                                        <div class="product-color-select">
+                                            <label for="pc-1">
+                                                <input type="radio" name="" id="pc-1">
+                                            </label>
+                                            <label class="pink" for="pc-2">
+                                                <input type="radio" name="" id="pc-2">
+                                            </label>
+                                            <label class="blue" for="pc-3">
+                                                <input type="radio" name="" id="pc-3">
+                                            </label>
+                                        </div>
+                                        <p class="card-text">Code - Y523201</p>
+                                        <p class="card-text text-lato">$42.00</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- forth slide -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="product-img">
+                                        <div class="card-img-top">
+                                            <img src="./assets/images/image 1168.png" alt="" >
+                                        </div>
+                                        <div class="product-quickview">
+                                            <ul class="feature-product-hover">
+                                                <li class="navigation-link">
+                                                    <a href="" title="Add to Cart"><span class="iconify" data-icon="fluent:cart-24-regular" data-width="20"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href="" title="Wish List"><span class="iconify" data-icon="uil:heart-alt" data-width="18"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href=""><span class="iconify" data-icon="uil:search-plus" data-width="18"></span></a>
+                                                </li>
+                                            </ul>
+                                            <a href="" class="view-detail btn text-decoration-none text-center" role="button">View Details</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fw-bold text-lato">Cantilever chair</h5>
+                                        <div class="product-color-select">
+                                            <label for="pc-1">
+                                                <input type="radio" name="" id="pc-1">
+                                            </label>
+                                            <label class="pink" for="pc-2">
+                                                <input type="radio" name="" id="pc-2">
+                                            </label>
+                                            <label class="blue" for="pc-3">
+                                                <input type="radio" name="" id="pc-3">
+                                            </label>
+                                        </div>
+                                        <p class="card-text">Code - Y523201</p>
+                                        <p class="card-text text-lato">$42.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="product-img">
+                                        <div class="card-img-top">
+                                            <img src="./assets/images/image 1.png" alt="">
+                                        </div>
+                                        <div class="product-quickview">
+                                            <ul class="feature-product-hover">
+                                                <li class="navigation-link">
+                                                    <a href="" title="Add to Cart"><span class="iconify" data-icon="fluent:cart-24-regular" data-width="20"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href="" title="Wish List"><span class="iconify" data-icon="uil:heart-alt" data-width="18"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href=""><span class="iconify" data-icon="uil:search-plus" data-width="18"></span></a>
+                                                </li>
+                                            </ul>
+                                            <a href="" class="view-detail btn text-decoration-none text-center" role="button">View Details</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fw-bold text-lato">Cantilever chair</h5>
+                                        <div class="product-color-select">
+                                            <label for="pc-1">
+                                                <input type="radio" name="" id="pc-1">
+                                            </label>
+                                            <label class="pink" for="pc-2">
+                                                <input type="radio" name="" id="pc-2">
+                                            </label>
+                                            <label class="blue" for="pc-3">
+                                                <input type="radio" name="" id="pc-3">
+                                            </label>
+                                        </div>
+                                        <p class="card-text">Code - Y523201</p>
+                                        <p class="card-text text-lato">$42.00</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="product-img">
+                                        <div class="card-img-top">
+                                            <img src="./assets/images/image 1169.png" alt="">
+                                        </div>
+                                        <div class="product-quickview">
+                                            <ul class="feature-product-hover">
+                                                <li class="navigation-link">
+                                                    <a href="" title="Add to Cart"><span class="iconify" data-icon="fluent:cart-24-regular" data-width="20"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href="" title="Wish List"><span class="iconify" data-icon="uil:heart-alt" data-width="18"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href=""><span class="iconify" data-icon="uil:search-plus" data-width="18"></span></a>
+                                                </li>
+                                            </ul>
+                                            <a href="" class="view-detail btn text-decoration-none text-center" role="button">View Details</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fw-bold text-pink text-lato">Cantilever chair</h5>
+                                        <div class="product-color-select">
+                                            <label for="pc-1">
+                                                <input type="radio" name="" id="pc-1">
+                                            </label>
+                                            <label class="pink" for="pc-2">
+                                                <input type="radio" name="" id="pc-2">
+                                            </label>
+                                            <label class="blue" for="pc-3">
+                                                <input type="radio" name="" id="pc-3">
+                                            </label>
+                                        </div>
+                                        <p class="card-text">Code - Y523201</p>
+                                        <p class="card-text text-lato">$42.00</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="product-img">
+                                        <div class="card-img-top">
+                                            <img src="./assets/images/image 3.png" alt="">
+                                        </div>
+                                        <div class="product-quickview">
+                                            <ul class="feature-product-hover">
+                                                <li class="navigation-link">
+                                                    <a href="" title="Add to Cart"><span class="iconify" data-icon="fluent:cart-24-regular" data-width="20"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href="" title="Wish List"><span class="iconify" data-icon="uil:heart-alt" data-width="18"></span></a>
+                                                </li>
+                                                <li class="navigation-link">
+                                                    <a href=""><span class="iconify" data-icon="uil:search-plus" data-width="18"></span></a>
+                                                </li>
+                                            </ul>
+                                            <a href="" class="view-detail btn text-decoration-none text-center" role="button">View Details</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fw-bold text-lato">Cantilever chair</h5>
+                                        <div class="product-color-select">
+                                            <label for="pc-1">
+                                                <input type="radio" name="" id="pc-1">
+                                            </label>
+                                            <label class="pink" for="pc-2">
+                                                <input type="radio" name="" id="pc-2">
+                                            </label>
+                                            <label class="blue" for="pc-3">
+                                                <input type="radio" name="" id="pc-3">
+                                            </label>
+                                        </div>
+                                        <p class="card-text">Code - Y523201</p>
+                                        <p class="card-text text-lato">$42.00</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button> -->
+            </div>
+        </div>
+    </section>
+    <!-- featured products end -->
 
     <!-- JS -->
     <script src="./assets/bootstrap-5.1.3/js/bootstrap.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="./assets/js/homepage.js"></script>
+
+    <!-- owl carousel js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./assets/owlcarousel/dist/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                loop:true,
+                items:1,
+                dots:true,
+                dotsData:true,
+                autoplay:true,
+                autoplayTimeout:5000
+            });
+        });
+    </script>
 </body>
 </html>
