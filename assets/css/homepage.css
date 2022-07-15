@@ -9,7 +9,7 @@
 }
 body {
     font-family: 'Josefin Sans', sans-serif;
-    height: 3000px;
+    overflow-x: hidden;
 }
 
 
@@ -602,4 +602,342 @@ body {
 }
 .trending-product-info{
     margin-left: 10px;
+}
+
+
+/* discount-item */
+
+.discount-item-filter-tabs .nav-link{
+    color: #151875;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+.discount-item-filter-tabs .nav-link.active{
+    color: #FB2E86;
+    background-color: #fff;
+    text-decoration: underline;
+}
+
+.discount-detail{
+    padding-top: 110px;
+}
+.discount-detail h2{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 132%;
+    /* or 46px */
+    letter-spacing: 0.015em;
+    color: #151875;
+}
+
+.discount-product-name{
+    font-size: 21px;
+    line-height: 132%;
+    letter-spacing: 0.015em;
+}
+
+.discount-product-detail{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #B7BACB;
+}
+
+.discount-detail div{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #B8B8DC;
+}
+.discount-detail ul{
+    list-style: none;
+    padding-left: 0;
+}
+.discount-detail li{
+    padding-right: 44px;
+}
+.discount-detail ul li:before{
+    content: url('../images/Vector.svg');
+    color: #7569B2;
+    padding-right: 5px;
+}
+.discount-detail button{
+    margin-top: 20px;
+}
+
+.discount-product-image{
+    position: relative;
+}
+
+.discount-product-image-01{
+    position: relative;
+    z-index: 1;
+    margin-top: 81px;
+}
+.discount-product-image-02{
+    position: absolute;
+    z-index: 4;
+    left: -17%;
+}
+
+/* top categories */
+
+.product-image{
+    position: relative;
+     background: #F6F7FB;
+    box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+    border-radius: 50%;
+    width: 269px;
+    margin: auto;
+}
+.product-image img{
+    padding-top: 46px;
+    /* padding-bottom: 45px; */
+}
+.product-image div{
+    padding-bottom: 21px;
+}
+
+.product-item h4{
+    margin-top: 27px;
+    margin-bottom: 13px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #151875;
+}
+.product-item p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #151875;
+}
+.product-item .view-detail{
+    margin-left: auto;
+    margin-right: auto;
+    bottom:  50%;
+    visibility: hidden;
+
+}
+
+.product-item:hover .product-image{
+    box-shadow: -8px 8px  #9877E7;
+
+}
+.product-item:hover .view-detail{
+    visibility: visible;
+}
+.top-categories .carousel-indicators{
+    margin-bottom: 0;
+}
+
+.top-categories .carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #FB2E86;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 50px;
+    transform: rotate(-45deg);
+}
+.top-categories .carousel-indicators [data-bs-target] {
+    background-color: #fff;
+}
+.top-categories .carousel-indicators li.active{
+    background-color: #FB2E86;
+}
+
+
+/* newslater */
+.newslater{
+    margin-top: 120px;
+    background: url('../images/Rectangle\ 102.png') no-repeat center;
+    background-size: cover;
+    
+}
+
+.newslater .section-title{
+    margin-top: 177px;
+    font-size: 35px;
+    line-height: 155%;
+}
+.newslater button{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+
+/* blog */
+.blog .section-title{
+    margin-top: 96px;
+    margin-bottom: 80px;
+}
+.blog .card {
+    width: 370px;
+    
+    /* border-radius: 10px; */
+}
+.blog .card .card-img-top{
+    padding-top: 0;
+    height: auto;
+    
+}
+.blog .card-img-top img{
+    border-radius: 5px;
+}
+
+.blog .card:hover .card-body,
+.blog .card:hover .card-title,
+.blog .card:hover .card-link{
+    background-color: #fff;
+    color: #FB2E86;
+}
+.blog .card-body{
+    padding: 19px 20px 35px 19px;
+}
+.blog .card-info{
+    color: #151875;
+    font-size: 14px;
+    line-height: 16px;
+}
+.blog .card-author{
+    margin-right: 30px;
+}
+.blog .card-author img{
+    padding-bottom: 2px;
+    padding-right: 7px;
+}
+
+.blog .card-time .iconify{
+    color: #FFA454;
+    margin-bottom: 4px;
+}
+.blog .card-title{
+    font-size: 18px;
+    line-height: 21px;
+    color: #151875;
+    margin-top: 30px;
+}
+.blog .card-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+    color: #72718F;
+}
+
+.blog .card-link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #151875;
+}
+
+
+/* footer */
+.footer{
+    background: #EEEFFB;
+    margin-top: 115px;
+    padding-top: 95px;
+}
+
+.footer .logo{
+    font-size: 38px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #000000;
+
+}
+
+.footer .buttonIn {
+    width: 377px;
+    position: relative;
+    margin-top: 31px;
+    margin-bottom: 25px;
+}
+.footer .buttonIn input{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    outline: none;
+    height: 44px;
+    border-radius: 3px;
+    border: #fff;
+    padding-left: 20px;
+    color: #8A8FB9;
+}
+.footer .buttonIn input::placeholder{
+    color: #8A8FB9;
+}
+.footer .buttonIn button{
+    position: absolute;
+    top: 3px;
+    right: 2px;
+    padding: 10px 40px;
+    height: 39px;
+    background-color: #FB2E86;
+    border-radius: 3px;
+    color: #fff;
+    border: none;
+    z-index: 2;
+}
+.contact p{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8A8FB9;
+}
+
+.nav-footer h5{
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 42px;
+}
+.nav-footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-footer li{
+    padding-bottom: 21px;
+}
+.nav-footer a{
+    text-decoration: none;
+    color: #8A8FB9;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.nav-footer .row{
+    padding-left: 80px;
+}
+.copyright{
+    background:#E7E4F8;
+}
+.copyright-01{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9DA0AE;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.copyright .social a{
+    background: #151875;
+    margin-right: 11px;
+    border-radius: 50%;
+}
+.copyright .social .iconify{
+    color: #ffffff;
+    margin: 5px;
 }
