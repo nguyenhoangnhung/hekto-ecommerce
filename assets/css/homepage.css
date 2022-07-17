@@ -770,6 +770,12 @@ body {
     margin-bottom: 100px;
 }
 
+.brands{
+    margin-top: 100px;
+}
+.brands img{
+    width: 100%;
+}
 
 /* blog */
 .blog .section-title{
@@ -1049,13 +1055,13 @@ body {
         padding: 10px 12px;
     }
 
- }
+}
 
 
  @media (min-width: 768px) and (max-width: 991.98px) {
     /* common */
     .section-title{
-        font-size: 32px;
+        font-size: 28px;
         margin-top: 15px;
     }
 
@@ -1081,7 +1087,17 @@ body {
     }
     .promotion .promo-desc{
         font-weight: 400;
+        font-size: 14px;
     }
+    .promotion .promo-title{
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .btn-shopping-now{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
 
     /* featured product */
     .featured-products .carousel{
@@ -1122,5 +1138,122 @@ body {
         font-size: 12px;
         line-height: unset;
     }
- }
+
+    /* unique feature */
+    .unique-features .unique-thumb img{
+        width: 300px;
+    }
+    .unique-features .unique-content .unique-title{
+        font-size: 22px;
+    }
+    .unique-features .unique-desc {
+        font-size: 14px;
+    }
+
+    .unique-features .unique-product{
+        margin-top: 10px;
+    }
+    .unique-features .btn-shopping-now{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    /* trending */
+    .trending-product-item .card-img-top{
+        padding-top: 0;
+        height: 200px;
+    }
+    .trending-product-item:first-child .card-img-top img{
+        width: 100%;
+    }
+    .trending-product-item .product-name{
+        font-size: 14px;
+    }
+    .sale-off{
+        margin-top: 10px;
+    }
+    .sale-off-1 {
+        margin-right: 29px;
+    }
+    .sale-off-1 h5,.sale-off-2 h5{
+        font-size: 20px;
+    }
+    .sale-off .trending-products-list {
+        flex-direction: row !important;
+        margin-top: 5px;
+    }
+
+    /* discount item */
+    .discount-item .discount-detail{
+        padding-top: 20px;
+    }
+    .discount-item .discount-detail h2{
+        font-size: 28px;
+    }
+    .discount-item .discount-detail .discount-product-name{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .discount-item .discount-detail .discount-product-detail{
+        font-size: 14px;
+    }
+    .discount-item .discount-detail .discount-check{
+        flex-direction: column;
+    }
+    .discount-item .discount-detail .discount-check ul{
+        margin-bottom: 0;
+    }
+    
+    .discount-item .discount-product-image .discount-product-image-01{
+        width: 80%;
+    }
+    .discount-product-image-02 {
+        margin-top: 40px;
+        margin-left: 10px;
+        width: 120%;
+    }
+    /* top categories */
+    .top-categories .carousel-inner{
+        padding-bottom: 5px;
+    }
+
+    /* newslater */
+    .newslater{
+        margin-top: 20px;
+    }
+    .newslater .section-title{
+        font-size: 28px;
+        margin-top: 50px;
+    }
+    .newslater button{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .brands{
+        margin-top: 10px;
+    }
+
+    /* leatest blog */
+    .blog .section-title{
+        margin-top: 10px;
+    }
+    .blog .card-body{
+        padding: 10px 10px 15px;
+    }
+    .blog .card-info{
+        font-size: 12px;
+    }
+    .blog .card-author{
+        margin-right: 15px;
+    }
+    .blog .card-title{
+        font-size: 15px;
+    }
+    /* footer */
+    .nav-footer .row {
+        padding-left: 0;
+    }
+}
+
 
