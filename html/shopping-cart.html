@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/cart.css">
+
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/bootstrap-5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/breadcrumb-page.css">
+    <link rel="stylesheet" href="../assets/css/homepage.css">
+
+    <!-- theme icon -->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+    <!-- import header, footer -->
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script>
+        $(function(){
+            $('#header').load("../layout/header.html .header-top,.navbar-header");
+            $("#footer").load("../layout/footer.html .footer");
+        });
+    </script>
+</head>
+<body>
+    <div id="header"></div>
+    <section class="breadcrumb-page">
+        <div class="container">
+            <h2 class="title-page">Shopping Cart</h2>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="">Page</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><a href="shopping-cart.html">Shopping Cart</a></li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <section class="shopping-cart">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 col-lg-8 col-md-8">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="header-table">Product</th>
+                                <th scope="col" class="header-table">Price</th>
+                                <th scope="col" class="header-table">Quantity</th>
+                                <th scope="col" class="header-table">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="item">
+                                    <div class="d-flex">
+                                        <img src="../assets/images/shopping-cart/Rectangle 34.png" alt="">
+                                        <div class="item__info d-flex flex-column">
+                                            <p class="item__name">Ut diam consequat</p>
+                                            <p class="item__color">Color:Brown</p>
+                                            <p class="item__size">Size:XL</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="price">$32.00</td>
+                                <td class="quantity buttons_added">
+                                    <input type="button" value="-" class="minus">
+                                    <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="" pattern="" inputmode="">
+                                    <input type="button" value="+" class="plus">
+                                </td>
+                                <td class="total">£219.00</td>
+                            </tr>
+                            <tr>
+                                <td class="item">
+                                    <div class="d-flex">
+                                        <img src="../assets/images/shopping-cart/Rectangle 35.png" alt="">
+                                        <div class="item__info d-flex flex-column">
+                                            <p class="item__name">Vel faucibus posuere</p>
+                                            <p class="item__color">Color:Brown</p>
+                                            <p class="item__size">Size:XL</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="price">$32.00</td>
+                                <td class="quantity buttons_added">
+                                    <input type="button" value="-" class="minus">
+                                    <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="" pattern="" inputmode="">
+                                    <input type="button" value="+" class="plus">
+                                </td>
+                                <td class="total">£219.00</td>
+                            </tr>
+
+                            <tr>
+                                <td class="item">
+                                    <div class="d-flex">
+                                        <img src="../assets/images/shopping-cart/Rectangle 36.png" alt="">
+                                        <div class="item__info d-flex flex-column">
+                                            <p class="item__name">Ac vitae vestibulum</p>
+                                            <p class="item__color">Color:Brown</p>
+                                            <p class="item__size">Size:XL</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="price">$32.00</td>
+                                <td class="quantity buttons_added">
+                                    <input type="button" value="-" class="minus">
+                                    <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="" pattern="" inputmode="">
+                                    <input type="button" value="+" class="plus">
+                                </td>
+                                <td class="total">£219.00</td>
+                            </tr>
+                            <tr>
+                                <td class="item">
+                                    <div class="d-flex">
+                                        <img src="../assets/images/shopping-cart/Rectangle 37.png" alt="">
+                                        <div class="item__info d-flex flex-column">
+                                            <p class="item__name">Elit massa diam</p>
+                                            <p class="item__color">Color:Brown</p>
+                                            <p class="item__size">Size:XL</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="price">$32.00</td>
+                                <td class="quantity buttons_added">
+                                    <input type="button" value="-" class="minus">
+                                    <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="" pattern="" inputmode="">
+                                    <input type="button" value="+" class="plus">
+                                </td>
+                                <td class="total">£219.00</td>
+                            </tr>
+                            <tr>
+                                <td class="item">
+                                    <div class="d-flex">
+                                        <img src="../assets/images/shopping-cart/Rectangle 38.png" alt="">
+                                        <div class="item__info d-flex flex-column">
+                                            <p class="item__name">Proin pharetra elementum</p>
+                                            <p class="item__color">Color:Brown</p>
+                                            <p class="item__size">Size:XL</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="price">$32.00</td>
+                                <td class="quantity buttons_added">
+                                    <input type="button" value="-" class="minus">
+                                    <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="" pattern="" inputmode="">
+                                    <input type="button" value="+" class="plus">
+                                </td>
+                                <td class="total">£219.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="button-group d-flex justify-content-between">
+                        <button class="btn btn-update">Update Cart</button>
+                        <button class="btn btn-clear">Clear Cart</button>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <h4 class="text-center">Cart Totals</h4>
+                    <div class="cart__totals">
+                        <div class="d-flex justify-content-between">
+                            <p>Subtotals:</p>
+                            <p>£219.00</p>
+                        </div>
+                        <hr class="cart__totals__line">
+                        <div class="d-flex justify-content-between">
+                            <p>Totals:</p>
+                            <p>£325.00</p>
+                        </div>
+                        <hr class="cart__totals__line">
+                        <label class="checkout">
+                            Shipping & taxes calculated at checkout
+                            <input type="checkbox" name="" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                        <button class="btn btn-checkout">Proceed To Checkout</button>
+                    </div>
+                    <h4 class="text-center">Calculate Shopping</h4>
+                    <div class="calculate__shipping">
+                        <div class="d-flex flex-column">
+                            <input type="text" name="" id="" placeholder="Bangladesh">
+                            <input type="text" name="" id="" placeholder="Mirpur Dhaka - 1200">
+                            <input type="text" name="" id="" placeholder="Postal Code">
+                            <button class="btn btn-shipping">Calculate Shiping</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="footer"></div>
+    <!-- JS -->
+    <script src="../assets/bootstrap-5.1.3/js/bootstrap.min.js"></script>
+
+    <!-- <script src="../assets/js/jquery.nice-select.min.js"></script> -->
+    <script src="../assets/js/homepage.js"></script>
+
+
+    <!-- quantity -->
+    <script>
+        function wcqib_refresh_quantity_increments() {
+            jQuery("div.quantity:not(.buttons_added), td.quantity:not(.buttons_added)").each(function(a, b) {
+                var c = jQuery(b);
+                c.addClass("buttons_added"), c.children().first().before('<input type="button" value="-" class="minus" />'), c.children().last().after('<input type="button" value="+" class="plus" />')
+            })
+        }
+        String.prototype.getDecimals || (String.prototype.getDecimals = function() {
+            var a = this,
+                b = ("" + a).match(/(?:\.(\d+))?(?:[eE]([+-]?\d+))?$/);
+            return b ? Math.max(0, (b[1] ? b[1].length : 0) - (b[2] ? +b[2] : 0)) : 0
+        }), jQuery(document).ready(function() {
+            wcqib_refresh_quantity_increments()
+        }), jQuery(document).on("updated_wc_div", function() {
+            wcqib_refresh_quantity_increments()
+        }), jQuery(document).on("click", ".plus, .minus", function() {
+            var a = jQuery(this).closest(".quantity").find(".qty"),
+                b = parseFloat(a.val()),
+                c = parseFloat(a.attr("max")),
+                d = parseFloat(a.attr("min")),
+                e = a.attr("step");
+            b && "" !== b && "NaN" !== b || (b = 0), "" !== c && "NaN" !== c || (c = ""), "" !== d && "NaN" !== d || (d = 0), "any" !== e && "" !== e && void 0 !== e && "NaN" !== parseFloat(e) || (e = 1), jQuery(this).is(".plus") ? c && b >= c ? a.val(c) : a.val((b + parseFloat(e)).toFixed(e.getDecimals())) : d && b <= d ? a.val(d) : b > 0 && a.val((b - parseFloat(e)).toFixed(e.getDecimals())), a.trigger("change")
+        });
+    </script>
+
+</body>
+</html>
